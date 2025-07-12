@@ -1,5 +1,6 @@
 <script setup>
 import { Head } from '@inertiajs/vue3';
+import Footer from "../Components/Layout/Footer.vue";
 
 defineProps({ seo: Object });
 </script>
@@ -9,11 +10,9 @@ defineProps({ seo: Object });
         <title>{{ seo.title }}</title>
         <meta name="description" :content="seo.description">
     </Head>
-
+    <!-- Navbar (global) -->
+    <Navbar/>
     <div class="bg-gray-100">
-        <!-- Navbar (global) -->
-        <Navbar />
-
         <!-- Contenido estático (SEO-friendly) -->
         <section class="container mx-auto py-12">
             <h1 class="text-4xl font-bold">Bienvenidos a nuestra empresa</h1>
@@ -21,4 +20,5 @@ defineProps({ seo: Object });
         </section>
 
     </div>
+    <Footer/>
 </template>
