@@ -2,6 +2,7 @@
 import { Head } from "@inertiajs/vue3";
 import Carousel from "../Components/home/Carousel.vue";
 import About from "../Components/home/About.vue";
+import Service from "../Components/home/Service.vue";
 defineProps({ seo: Object });
 </script>
 
@@ -14,6 +15,7 @@ defineProps({ seo: Object });
     <Navbar />
     <Carousel />
     <About />
+    <Service />
     <div class="bg-gray-100">
         <!-- Contenido estático (SEO-friendly) -->
         <section class="container mx-auto py-12">

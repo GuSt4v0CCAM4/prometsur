@@ -37,7 +37,16 @@ onMounted(() => {
         <div class="container py-3">
             <div class="d-flex align-items-center">
                 <a href="/" class="text-decoration-none">
-                    <h2 class="text-white fw-bold m-0 logo-text">PROMETSUR</h2>
+                    <h2
+                        class="text-white fw-bold m-0 logo-text"
+                        style="text-shadow: 2px 2px 0 #003b5c"
+                    >
+                        <i
+                            class="bi bi-lightning-fill"
+                            style="color: #ffd400"
+                        ></i
+                        >PROMETSUR
+                    </h2>
                 </a>
                 <div class="ms-auto d-flex align-items-center">
                     <small class="ms-4"
@@ -89,7 +98,16 @@ onMounted(() => {
                 style="background-color: #f4f4f4"
             >
                 <a href="/" class="d-lg-none text-decoration-none">
-                    <h1 class="text-dark fw-bold m-0 logo-text">PROMETSUR</h1>
+                    <h1
+                        class="fw-bold m-0 logo-text"
+                        style="color: #00aeef; text-shadow: 2px 2px 0 #00598c"
+                    >
+                        <i
+                            class="bi bi-lightning-fill"
+                            style="color: #ffd400"
+                        ></i
+                        >PROMETSUR
+                    </h1>
                 </a>
                 <button
                     type="button"
@@ -141,8 +159,11 @@ onMounted(() => {
                     <div class="ms-auto d-none d-lg-block">
                         <a
                             href=""
-                            class="btn btn-primary py-2 px-3"
-                            style="background-color: #00aeef"
+                            class="btn text-dark py-2 px-3"
+                            style="
+                                background-color: #ffd400;
+                                outline: 1px solid #00598c;
+                            "
                             >Contactar</a
                         >
                     </div>

@@ -16,7 +16,7 @@ onMounted(() => {
 </script>
 <template>
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-6 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid p-0 mb-2 wow fadeIn" data-wow-delay="0.1s">
         <div
             id="header-carousel"
             class="carousel slide"
@@ -28,12 +28,22 @@ onMounted(() => {
                     <img class="w-100" src="/img/carousel-1.jpg" alt="Image" />
                     <div class="carousel-caption">
                         <h1
-                            class="display-1 text-uppercase text-white mb-4 animated zoomIn logo-text"
+                            class="display-1 text-uppercase mb-4 animated zoomIn logo-text"
+                            style="
+                                color: #f2f9ff;
+                                text-shadow: 2px 2px 0 #ffffff;
+                            "
                         >
                             Experiencia <br />
                             que cuenta
                         </h1>
-                        <h2 class="mb-4 animated zoomIn" style="color: #ffd400">
+                        <h2
+                            class="mb-4 animated zoomIn"
+                            style="
+                                color: #ffd400;
+                                text-shadow: 1px 1px 0 #ffffff;
+                            "
+                        >
                             Más de 10 años impulsando la industria peruana
                         </h2>
                     </div>
@@ -42,12 +52,22 @@ onMounted(() => {
                     <img class="w-100" src="/img/carousel-2.jpg" alt="Image" />
                     <div class="carousel-caption">
                         <h1
-                            class="display-1 text-uppercase text-white mb-4 animated zoomIn logo-text"
+                            class="display-1 text-uppercase mb-4 animated zoomIn logo-text"
+                            style="
+                                color: #f2f9ff;
+                                text-shadow: 2px 2px 0 #ffffff;
+                            "
                         >
                             Tecnología <br />
                             aplicada
                         </h1>
-                        <h2 class="mb-4 animated zoomIn" style="color: #ffd400">
+                        <h2
+                            class="mb-4 animated zoomIn"
+                            style="
+                                color: #ffd400;
+                                text-shadow: 1px 1px 0 #ffffff;
+                            "
+                        >
                             Especialistas en metalmecánica y termofusión HDPE
                         </h2>
                     </div>
@@ -56,12 +76,22 @@ onMounted(() => {
                     <img class="w-100" src="/img/carousel-3.jpg" alt="Image" />
                     <div class="carousel-caption">
                         <h1
-                            class="display-1 text-uppercase text-white mb-4 animated zoomIn logo-text"
+                            class="display-1 text-uppercase mb-4 animated zoomIn logo-text"
+                            style="
+                                color: #f2f9ff;
+                                text-shadow: 2px 2px 0 #ffffff;
+                            "
                         >
                             Precisión <br />
                             garantizada
                         </h1>
-                        <h2 class="mb-4 animated zoomIn" style="color: #ffd400">
+                        <h2
+                            class="mb-4 animated zoomIn"
+                            style="
+                                color: #ffd400;
+                                text-shadow: 1px 1px 0 #ffffff;
+                            "
+                        >
                             Diseñamos y fabricamos con altos estándares de
                             calidad
                         </h2>
