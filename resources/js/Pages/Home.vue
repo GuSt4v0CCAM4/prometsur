@@ -19,6 +19,7 @@ defineProps({ seo: Object });
     <Carousel />
     <About />
     <Service />
+    <Client />
     <Choose />
     <Footer />
 </template>

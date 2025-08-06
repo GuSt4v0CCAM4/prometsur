@@ -4,7 +4,7 @@ import { ref } from "vue";
 <template>
     <!-- Appoinment Start -->
     <div
-        class="container-fluid mt-6 mb-0 py-5 wow fadeIn"
+        class="container-fluid mt- mb-0 py-5 wow fadeIn"
         style="background-color: #00598c"
         data-wow-delay="0.1s"
     >

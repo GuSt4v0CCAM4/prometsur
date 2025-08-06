@@ -1,124 +1,99 @@
 <script setup>
 import { ref } from "vue";
+import { onMounted } from "vue";
+
+//funcion para que funcione el carrousel
+onMounted(() => {
+    const el = document.querySelector("#carouselExampleSlidesOnly");
+    if (el && window.bootstrap) {
+        new window.bootstrap.Carousel(el, {
+            interval: 2000,
+            ride: "carousel",
+            pause: false, // <- evita que se detenga al interactuar
+        });
+    }
+});
 </script>
 <template>
-    <div class="container-fluid py-5"">
+    <div class="container-fluid pt-5 pb-6">
         <div class="container">
             <div
-                class="text-center mx-auto pb-4 wow fadeInUp"
+                class="text-center mx-auto wow fadeInUp"
                 data-wow-delay="0.1s"
-                style="
-                    max-width: 600px;
-                    visibility: visible;
-                    animation-delay: 0.1s;
-                    animation-name: fadeInUp;
-                "
+                style="max-width: 600px"
             >
-                <h1 class="display-6 text-uppercase mb-4 logo-text">
-
-                    <span
-                        style="
-                            color: #00aeef;
-                            text-shadow: 2px 2px 0 #00598c;
-                        "
+                <h1 class="display-6 text-white text-uppercase mb-5 logo-text">
+                    <span style="color: #00aeef; text-shadow: 2px 2px 0 #00598c"
                         >Nuestros
                     </span>
-                    <span
-                        style="
-                            color: #ffd400;
-                            text-shadow: 2px 2px 0 #00598c;
-                        "
+                    <span style="color: #ffd400; text-shadow: 2px 2px 0 #00598c"
                         >Clientes</span
                     >
-
                 </h1>
             </div>
-            <div
-                id="transparent-carousel"
-                class="carousel slide mb-5"
+<div
+                id="carouselExampleSlidesOnly"
+                class="carousel slide"
                 data-bs-ride="carousel"
-                data-bs-interval="1500"
             >
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-4">
-                                <img
-                                    src="img/clients/perurail.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
-                                    alt="Image 1"
-                                />
-                            </div>
-                            <div class="col-4">
-                                <img
-                                    src="img/clients/SEW.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
-                                    alt="Image 2"
-                                />
-                            </div>
-                            <div class="col-4">
-                                <img
-                                    src="img/clients/linde.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
-                                    alt="Image 3"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-4">
-                                <img
-                                    src="img/clients/yura.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="col-4">
-                                <img
-                                    src="img/clients/tsa.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
-                                    alt="Image 3"
-                                />
-                            </div>
-                            <div class="col-4">
-                                <img
-                                    src="img/clients/neuma.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
-                                    alt="Image 3"
-                                />
-                            </div>
-                        </div>
-                    </div>
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-4">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
                                 <img
-                                    src="img/clients/livigui.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
+                                    src="/img/clients/perurail.webp"
+                                    class="glow-border img-fluid"
+                                    alt="PeruRail"
+                                />
+                            </div>
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
+                                <img
+                                    src="/img/clients/SEW.webp"
+                                    class="glow-border img-fluid"
+                                    alt="SEW"
+                                />
+                            </div>
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
+                                <img
+                                    src="/img/clients/linde.webp"
+                                    class="glow-border img-fluid"
+                                    alt="Linde"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
+                                <img
+                                    src="/img/clients/yura.webp"
+                                    class="glow-border img-fluid"
                                     alt="Image 3"
                                 />
                             </div>
-                            <div class="col-4">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
                                 <img
-                                    src="img/clients/prodie.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
+                                    src="/img/clients/tsa.webp"
+                                    class="glow-border img-fluid"
                                     alt="Image 3"
                                 />
                             </div>
-                            <div class="col-4">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
                                 <img
-                                    src="img/clients/Festo_logo.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
+                                    src="/img/clients/neuma.webp"
+                                    class="glow-border img-fluid"
                                     alt="Image 3"
                                 />
                             </div>
@@ -126,35 +101,71 @@ import { ref } from "vue";
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-4">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
                                 <img
-                                    src="img/clients/gemco.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
+                                    src="img/clients/livigui.webp"
+                                    class="glow-border img-fluid"
                                     alt="Image 3"
                                 />
                             </div>
-                            <div class="col-4">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
                                 <img
-                                    src="img/clients/kampfer.png"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
+                                    src="img/clients/prodie.webp"
+                                    class="glow-border img-fluid"
                                     alt="Image 3"
                                 />
                             </div>
-                            <div class="col-4">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
                                 <img
-                                    src="img/clients/mgtrading.webp"
-                                    style="height: 125px"
-                                    class="img-fluid glow-border"
+                                    src="img/clients/Festo_logo.webp"
+                                    class="glow-border img-fluid"
                                     alt="Image 3"
                                 />
                             </div>
                         </div>
                     </div>
-                    <!-- Añade más items del carrusel si es necesario -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
+                                <img
+                                    src="img/clients/gemco.webp"
+                                    class="glow-border img-fluid"
+                                    alt="Image 3"
+                                />
+                            </div>
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
+                                <img
+                                    src="img/clients/kampfer.png"
+                                    class="glow-border img-fluid"
+                                    alt="Image 3"
+                                />
+                            </div>
+                            <div
+                                class="col-sm-6 col-md-4 d-flex justify-content-center align-items-center py-3"
+                            >
+                                <img
+                                    src="img/clients/mgtrading.webp"
+                                    class="glow-border img-fluid"
+                                    alt="Image 3"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+<style scoped>
+
+</style>
