@@ -1,18 +1,7 @@
 @import "../lib/animate/animate.min.css";
 @import "../lib/owlcarousel/assets/owl.carousel.min.css";
 
-.glow-border {
-    max-height: 100px;
-    width: auto;
-    max-width: 100%;
-    filter: drop-shadow(0 0 2px #ffd400) drop-shadow(0 0 5px #ffd400);
-    transition: filter 0.3s;
 
-}
-
-.glow-border:hover {
-    filter: drop-shadow(0 0 4px #ffd400) drop-shadow(0 0 8px #ffd400);
-}
 .text-yellow {
     color: #ffd400 !important;
 }
