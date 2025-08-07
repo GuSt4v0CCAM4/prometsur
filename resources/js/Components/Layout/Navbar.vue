@@ -72,7 +72,7 @@ onMounted(() => {
                             class="btn btn-sm-square btn-light ms-2"
                             style="color: #00598c"
                             href=""
-                            ><i class="fab fa-twitter"></i
+                            ><i class="fab fa-whatsapp"></i
                         ></a>
                         <a
                             class="btn btn-sm-square btn-light ms-2"
@@ -136,19 +136,22 @@ onMounted(() => {
                                 class="dropdown-menu bg-light rounded-0 rounded-bottom m-0"
                             >
                                 <a href="feature.html" class="dropdown-item"
-                                    >Features</a
+                                    >Fabricación de Estructuras</a
                                 >
                                 <a href="team.html" class="dropdown-item"
-                                    >Our Team</a
+                                    >Montaje de Estructuras Metalicas</a
                                 >
                                 <a href="testimonial.html" class="dropdown-item"
-                                    >Testimonial</a
+                                    >Maestranza</a
                                 >
                                 <a href="appoinment.html" class="dropdown-item"
-                                    >Appoinment</a
+                                    >Mantenimiento Electromecanico</a
                                 >
                                 <a href="404.html" class="dropdown-item"
-                                    >404 Page</a
+                                    >Termofusión HDPE</a
+                                >
+                                <a href="404.html" class="dropdown-item"
+                                    >Obra Civil</a
                                 >
                             </div>
                         </div>

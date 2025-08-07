@@ -19,7 +19,7 @@ onMounted(() => {
       <!-- Título de la sección -->
       <div class="clients-title">
         <h1>
-          <span class="blue-text">Nuestros</span>
+          <span class="blue-text">Nuestros </span>
           <span class="yellow-text">Clientes</span>
         </h1>
       </div>

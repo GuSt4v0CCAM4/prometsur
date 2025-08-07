@@ -1,7 +1,6 @@
 @import "../lib/animate/animate.min.css";
 @import "../lib/owlcarousel/assets/owl.carousel.min.css";
 
-
 .text-yellow {
     color: #ffd400 !important;
 }
@@ -274,16 +273,16 @@
     padding-left: 45px;
 }
 
-.about-img::before {
+/* Imagen decorativa */
+.about-deco-img {
     position: absolute;
-    content: "";
-    width: 200px;
-    height: 300px;
     top: 0;
     left: 0;
-    border: 5px solid #ffd400;
+    width: 200px;
+    height: auto;
     animation: animateUpDown 3s ease-in-out infinite;
     z-index: -1;
+    pointer-events: none; /* para que no interfiera con el mouse */
 }
 
 @keyframes animateUpDown {

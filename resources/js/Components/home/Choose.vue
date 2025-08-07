@@ -11,51 +11,66 @@ import { ref } from "vue";
         <div class="container pt-5">
             <div class="row gy-5 gx-0">
                 <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-uppercase text-white mb-4">
-                        We Complete Welding & Metal Projects in Time
+                    <h1 class="display-6 text-uppercase mb-4 logo-text">
+                        <span
+                            style="
+                                color: #ffd400;
+                                text-shadow: 2px 2px 0 #003b5c;
+                            "
+                            >Elígenos
+                        </span>
                     </h1>
-                    <p class="text-white mb-5 wow fadeIn" data-wow-delay="0.4s">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur tellus augue, iaculis id elit eget, ultrices
-                        pulvinar tortor.
+
+                    <p class="text-white mb-3 wow fadeIn" data-wow-delay="0.4s">
+                        En
+                        <span
+                            class="logo-text"
+                            style="text-shadow: 2px 2px 0 #003b5c"
+                            >Prometsur J&N S.A.C.
+                        </span>
+                        nos caracterizamos por:
                     </p>
-                    <div
-                        class="d-flex align-items-start wow fadeIn"
-                        data-wow-delay="0.5s"
-                    >
-                        <div class="btn-lg-square bg-white">
-                            <i class="bi bi-geo-alt text-dark fs-3"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h6 class="text-white text-uppercase">
-                                Office Address
-                            </h6>
-                            <span class="text-white"
-                                >123 Street, New York, USA</span
-                            >
-                        </div>
-                    </div>
-                    <hr class="bg-body" />
-                    <div
-                        class="d-flex align-items-start wow fadeIn"
-                        data-wow-delay="0.6s"
-                    >
-                        <div class="btn-lg-square bg-white">
-                            <i class="bi bi-clock text-dark fs-3"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h6 class="text-white text-uppercase">
-                                Office Time
-                            </h6>
-                            <span class="text-white"
-                                >Mon-Sat 09am-5pm, Sun Closed</span
-                            >
-                        </div>
-                    </div>
+                    <p class="text-white mb-1" style="text-align: justify">
+                        <i
+                            class="bi bi-check-circle"
+                            style="color: #fef200"
+                        ></i>
+                        Entregas puntuales.
+                    </p>
+                    <p class="text-white mb-1" style="text-align: justify">
+                        <i
+                            class="bi bi-check-circle"
+                            style="color: #fef200"
+                        ></i>
+                        Cumplimos normas y estándares.
+                    </p>
+                    <p class="text-white mb-1" style="text-align: justify">
+                        <i
+                            class="bi bi-check-circle"
+                            style="color: #fef200"
+                        ></i>
+                        Atención 100% personalizada.
+                    </p>
+                    <p class="text-white mb-1" style="text-align: justify">
+                        <i
+                            class="bi bi-check-circle"
+                            style="color: #fef200"
+                        ></i>
+                        Personal capacitado y con experiencia.
+                    </p>
+                    <p class="text-white mb-1" style="text-align: justify">
+                        <i
+                            class="bi bi-check-circle"
+                            style="color: #fef200"
+                        ></i>
+                        Mejora continua e innovación.
+                    </p>
+
+                    <img src="img/logo_mini.webp" style="width: 400px" />
                 </div>
                 <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.7s">
                     <div class="bg-white p-5">
-                        <h2 class="text-uppercase mb-4">Online Appoinment</h2>
+                        <h2 class="text-uppercase mb-4">Consulta ahora:</h2>
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
@@ -65,7 +80,7 @@ import { ref } from "vue";
                                         id="name"
                                         placeholder="Your Name"
                                     />
-                                    <label for="name">Your Name</label>
+                                    <label for="name">Nombre</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -76,7 +91,7 @@ import { ref } from "vue";
                                         id="mail"
                                         placeholder="Your Email"
                                     />
-                                    <label for="mail">Your Email</label>
+                                    <label for="mail">Correo</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -87,7 +102,7 @@ import { ref } from "vue";
                                         id="mobile"
                                         placeholder="Your Mobile"
                                     />
-                                    <label for="mobile">Your Mobile</label>
+                                    <label for="mobile">Celular</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -100,7 +115,7 @@ import { ref } from "vue";
                                         <option value="">Pipe Welding</option>
                                     </select>
                                     <label for="service"
-                                        >Choose A Service</label
+                                        >Escoge un servicio</label
                                     >
                                 </div>
                             </div>
@@ -112,15 +127,16 @@ import { ref } from "vue";
                                         id="message"
                                         style="height: 130px"
                                     ></textarea>
-                                    <label for="message">Message</label>
+                                    <label for="message">Mensaje</label>
                                 </div>
                             </div>
                             <div class="col-12 text-center">
                                 <button
                                     class="btn btn-primary w-100 py-3"
                                     type="submit"
+                                    style="background-color: #ffd400"
                                 >
-                                    Submit Now
+                                    Enviar
                                 </button>
                             </div>
                         </div>

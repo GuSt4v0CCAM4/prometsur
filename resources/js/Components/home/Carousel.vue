@@ -25,7 +25,7 @@ onMounted(() => {
         >
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="/img/carousel-1.jpg" alt="Image" />
+                    <img class="w-100" src="/img/fondo.webp" alt="Image" />
                     <div class="carousel-caption">
                         <h1
                             class="display-1 text-uppercase mb-4 animated zoomIn logo-text"
@@ -49,7 +49,7 @@ onMounted(() => {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="/img/carousel-2.jpg" alt="Image" />
+                    <img class="w-100" src="/img/fondo.webp" alt="Image" />
                     <div class="carousel-caption">
                         <h1
                             class="display-1 text-uppercase mb-4 animated zoomIn logo-text"
@@ -73,7 +73,7 @@ onMounted(() => {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="/img/carousel-3.jpg" alt="Image" />
+                    <img class="w-100" src="/img/fondo.webp" alt="Image" />
                     <div class="carousel-caption">
                         <h1
                             class="display-1 text-uppercase mb-4 animated zoomIn logo-text"

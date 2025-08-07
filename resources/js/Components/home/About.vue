@@ -8,7 +8,12 @@ import { Link } from "@inertiajs/vue3";
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid w-100" src="img/about.jpg" />
+                        <img
+                            src="img/logo.webp"
+                            alt="Decorativo"
+                            class="about-deco-img"
+                        />
+                        <img class="img-fluid w-100" src="img/resena.webp" />
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
